@@ -1,0 +1,6 @@
+framework module YDCourse {
+  umbrella header "YDCourse-umbrella.h"
+
+  export *
+  module * { export * }
+}
