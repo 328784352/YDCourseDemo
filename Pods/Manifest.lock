@@ -1,0 +1,16 @@
+PODS:
+  - YDCourse (0.0.1)
+
+DEPENDENCIES:
+  - YDCourse (from `YDCourse.podspec`)
+
+EXTERNAL SOURCES:
+  YDCourse:
+    :path: YDCourse.podspec
+
+SPEC CHECKSUMS:
+  YDCourse: b15702aeb6c23665c97e10f9cdd2628602c38f90
+
+PODFILE CHECKSUM: 5ae6e4028d6df07db866f6afb95177a8810fc72f
+
+COCOAPODS: 1.9.3

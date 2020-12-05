@@ -15,6 +15,7 @@
 		1453DA9C257A40A6000A0D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1453DA9A257A40A6000A0D94 /* LaunchScreen.storyboard */; };
 		1453DAA7257A40A6000A0D94 /* YDCourseDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453DAA6257A40A6000A0D94 /* YDCourseDemoTests.swift */; };
 		1453DAB2257A40A6000A0D94 /* YDCourseDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453DAB1257A40A6000A0D94 /* YDCourseDemoUITests.swift */; };
+		F3EB62C88A6DBEAD24BF0084 /* Pods_YDCourseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2466C180F4D334CC469C957 /* Pods_YDCourseDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		1453DAAD257A40A6000A0D94 /* YDCourseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDCourseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1453DAB1257A40A6000A0D94 /* YDCourseDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDCourseDemoUITests.swift; sourceTree = "<group>"; };
 		1453DAB3257A40A6000A0D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA81196FA6F60856439D5DD /* Pods-YDCourseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCourseDemo.debug.xcconfig"; path = "Target Support Files/Pods-YDCourseDemo/Pods-YDCourseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B2466C180F4D334CC469C957 /* Pods_YDCourseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDCourseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D581A55462F54733F6F629A2 /* Pods-YDCourseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCourseDemo.release.xcconfig"; path = "Target Support Files/Pods-YDCourseDemo/Pods-YDCourseDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EB62C88A6DBEAD24BF0084 /* Pods_YDCourseDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				1453DAA5257A40A6000A0D94 /* YDCourseDemoTests */,
 				1453DAB0257A40A6000A0D94 /* YDCourseDemoUITests */,
 				1453DA8D257A40A4000A0D94 /* Products */,
+				577AF67CC7C9185C163A6BF1 /* Pods */,
+				C6E73422C10CDF965CDBA619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,24 @@
 			path = YDCourseDemoUITests;
 			sourceTree = "<group>";
 		};
+		577AF67CC7C9185C163A6BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA81196FA6F60856439D5DD /* Pods-YDCourseDemo.debug.xcconfig */,
+				D581A55462F54733F6F629A2 /* Pods-YDCourseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6E73422C10CDF965CDBA619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2466C180F4D334CC469C957 /* Pods_YDCourseDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1453DAB6257A40A6000A0D94 /* Build configuration list for PBXNativeTarget "YDCourseDemo" */;
 			buildPhases = (
+				42CE32A1D377A848EBC3D503 /* [CP] Check Pods Manifest.lock */,
 				1453DA88257A40A4000A0D94 /* Sources */,
 				1453DA89257A40A4000A0D94 /* Frameworks */,
 				1453DA8A257A40A4000A0D94 /* Resources */,
+				A97F3AB4941263EC0A034EDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CE32A1D377A848EBC3D503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YDCourseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97F3AB4941263EC0A034EDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YDCourseDemo/Pods-YDCourseDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YDCourseDemo/Pods-YDCourseDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDCourseDemo/Pods-YDCourseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1453DA88257A40A4000A0D94 /* Sources */ = {
@@ -433,6 +502,7 @@
 		};
 		1453DAB7257A40A6000A0D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA81196FA6F60856439D5DD /* Pods-YDCourseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +522,7 @@
 		};
 		1453DAB8257A40A6000A0D94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D581A55462F54733F6F629A2 /* Pods-YDCourseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
