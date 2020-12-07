@@ -1,15 +1,22 @@
 PODS:
-  - YDCourse (0.0.1)
+  - CTMediator (44)
+  - YDCourse (0.0.1):
+    - CTMediator
 
 DEPENDENCIES:
   - YDCourse (from `YDCourse.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
 
 EXTERNAL SOURCES:
   YDCourse:
     :path: YDCourse.podspec
 
 SPEC CHECKSUMS:
-  YDCourse: b15702aeb6c23665c97e10f9cdd2628602c38f90
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  YDCourse: c5281942937797109a109489723a03abd8ae331c
 
 PODFILE CHECKSUM: 5ae6e4028d6df07db866f6afb95177a8810fc72f
 

@@ -11,15 +11,17 @@
   "authors": {
     "328784352": "gu_32871@163.com"
   },
+  "platforms": {
+    "ios": "8.0"
+  },
   "source": {
     "git": "https://github.com/328784352/YDCourseDemo.git",
     "tag": "0.0.1"
   },
   "source_files": "YDCourse/**/*.swift",
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+  "dependencies": {
+    "CTMediator": [
+
+    ]
   }
 }
