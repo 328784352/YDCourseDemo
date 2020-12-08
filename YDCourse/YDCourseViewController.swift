@@ -19,6 +19,8 @@ class YDCourseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = .white
 
         let oneBtn = UIButton()
         oneBtn.frame = CGRect(x: wwidth/2 - 100, y: 100, width: 200, height: 50)

@@ -8,7 +8,7 @@
 import UIKit
 
 @objc class Target_YDCourse: NSObject {
-    func Action_pushCourse(_ params:NSDictionary) -> UIViewController {
+    @objc func Action_pushCourse(_ params:NSDictionary) -> UIViewController {
         let course = YDCourseViewController()
         if let messgae = params["message"] as? String{
             course.message = messgae
