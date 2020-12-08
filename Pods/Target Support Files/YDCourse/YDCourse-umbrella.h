@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CTMediator+OCYDCourse.h"
 
 FOUNDATION_EXPORT double YDCourseVersionNumber;
 FOUNDATION_EXPORT const unsigned char YDCourseVersionString[];

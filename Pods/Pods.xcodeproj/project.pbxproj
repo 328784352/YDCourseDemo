@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36B2A6167D6A8986B912522AC51D0100 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
+		012DB84FA1093165425623F42E20284F /* YDCourse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CDC5C9DEF916B446DC240811304E03 /* YDCourse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0663666014396A0B272FBF1BF8BFB646 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
+		06D13EF10B78DD351108A773B9750D3C /* CTMediator+OCYDCourse.h in Headers */ = {isa = PBXBuildFile; fileRef = 056B2E1FA334A5484963687430A0C4DD /* CTMediator+OCYDCourse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0829569DE6AAC9E4C4359A0B4BE6FAE3 /* Target_YDCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2817574473725746D1AFA146806BC /* Target_YDCourse.swift */; };
+		361AC14800264F27139C19E6CDFF93D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7465B57457D5AA861E62F9C0DEDC0617 /* Foundation.framework */; };
 		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E68E6F9839142FD566F7F1A2E957456 /* CTMediator+OCYDCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E71FD1E4AF5DB034C7E79A30E2705D1 /* CTMediator+OCYDCourse.m */; };
 		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */; };
 		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E484A2C09E897BA8B9E622E6BF49ADE /* YDCourse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A118655938F69A767BF3F73CE76832 /* YDCourse-dummy.m */; };
 		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7205FCB05AA7B62D59420AC1D35ACD10 /* YDCourse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B0D87B1BCFB39DC018C1BA00C38B6C /* YDCourse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B0EC52F55E28080BDFB53097349211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7465B57457D5AA861E62F9C0DEDC0617 /* Foundation.framework */; };
 		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
 		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */; };
 		8AAB3C987460CAE829BF4143DF907E27 /* Pods-YDCourseDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DABB9B9AC3A267BC916B5C80313E1 /* Pods-YDCourseDemo-dummy.m */; };
+		922AE522F168F304AA91348F72230BC4 /* YDCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B966E77BCA1E37F54F01248A8967084 /* YDCourseViewController.swift */; };
+		94C46C0BD8A38C9E249BE8D2152B041C /* YDCourse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FAED80D2607752ECA41B460E7FB993 /* YDCourse-dummy.m */; };
 		B3CB0957985DFD79F0F33C2D51C31D65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628410DD7290E15DA3EA6CF908367378 /* CoreGraphics.framework */; };
-		B522B8ADD1637BDDE630FB3026E9EF5F /* CTMediator+YDCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD2A2E2C06A09086978694ED101CBC /* CTMediator+YDCourse.swift */; };
-		D551A61AE21717B6FA3E2F49ED0F5EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7465B57457D5AA861E62F9C0DEDC0617 /* Foundation.framework */; };
-		DACC43C45396AE7703E4C06DF4451A77 /* YDCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926114A5F1D1833E53D97A263F6C7170 /* YDCourseViewController.swift */; };
 		F87AB6AA06B0F2C2FED8C1FD9DE4AD08 /* Pods-YDCourseDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624EB4B96D3F42F00AF64DB9632CF44D /* Pods-YDCourseDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9155E9C3AB70BBF4ED9437D527AA388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7465B57457D5AA861E62F9C0DEDC0617 /* Foundation.framework */; };
+		FD37B94FEEC824684D116A647617C601 /* CTMediator+YDCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ABBF64A7B97E110D8B842300797AFC /* CTMediator+YDCourse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		056625ABE09F44C01B3F8D469E098C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
 		22837CCDA6EDBDEACD3E18568BD4CBA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -41,63 +51,59 @@
 			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
 			remoteInfo = CTMediator;
 		};
-		946700EDE92BF2E7237C99F47DE1EF19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056B2E1FA334A5484963687430A0C4DD /* CTMediator+OCYDCourse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+OCYDCourse.h"; path = "YDCourse/CTMediator+OCYDCourse.h"; sourceTree = "<group>"; };
 		06DAB09A9B14B6CBDD29F7DEE0C27E22 /* YDCourse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDCourse.framework; path = YDCourse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17B0D87B1BCFB39DC018C1BA00C38B6C /* YDCourse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCourse-umbrella.h"; sourceTree = "<group>"; };
+		0C043C36C68076105EFFD750F326F2DF /* YDCourse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDCourse.modulemap; sourceTree = "<group>"; };
 		1AB81E51E3D5E2DA0BA7195605DB16D4 /* Pods-YDCourseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDCourseDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1CC0950B076F0E5AB9331DD59AACF95D /* YDCourse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCourse-prefix.pch"; sourceTree = "<group>"; };
-		243CC1D3565E0F816C111E0E3FEADD48 /* YDCourse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDCourse.modulemap; sourceTree = "<group>"; };
-		34A4F89EAC345644099973B4868DED3A /* YDCourse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDCourse-Info.plist"; sourceTree = "<group>"; };
+		284F2D96AD28F80C64C29396299C5336 /* YDCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCourse.debug.xcconfig; sourceTree = "<group>"; };
 		3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		3F56C778DC356F62F311913C14957773 /* Pods-YDCourseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDCourseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		41FAED80D2607752ECA41B460E7FB993 /* YDCourse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDCourse-dummy.m"; sourceTree = "<group>"; };
 		425A7ACCA635F2600A7B377F2D299895 /* Pods_YDCourseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDCourseDemo.framework; path = "Pods-YDCourseDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA2817574473725746D1AFA146806BC /* Target_YDCourse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_YDCourse.swift; path = YDCourse/Target_YDCourse.swift; sourceTree = "<group>"; };
 		4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		4C44FE68C8400A95227BEFF94916E945 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		58ADC9E5128926EA89EDB1C617AA4E55 /* Pods-YDCourseDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDCourseDemo-Info.plist"; sourceTree = "<group>"; };
-		5C133E6B4AD31945690FAE85BD27A046 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5E6E7549E5C6D17A7277514819DB490A /* YDCourse.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDCourse.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E71FD1E4AF5DB034C7E79A30E2705D1 /* CTMediator+OCYDCourse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+OCYDCourse.m"; path = "YDCourse/CTMediator+OCYDCourse.m"; sourceTree = "<group>"; };
 		624EB4B96D3F42F00AF64DB9632CF44D /* Pods-YDCourseDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDCourseDemo-umbrella.h"; sourceTree = "<group>"; };
 		628410DD7290E15DA3EA6CF908367378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		67A118655938F69A767BF3F73CE76832 /* YDCourse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDCourse-dummy.m"; sourceTree = "<group>"; };
 		68CAB9790270CB66FF053F5DD69F9991 /* Pods-YDCourseDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDCourseDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B966E77BCA1E37F54F01248A8967084 /* YDCourseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YDCourseViewController.swift; path = YDCourse/YDCourseViewController.swift; sourceTree = "<group>"; };
 		6E3289E0DCE7D97D2DD2D9BF10CD72B0 /* Pods-YDCourseDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDCourseDemo.modulemap"; sourceTree = "<group>"; };
 		7465B57457D5AA861E62F9C0DEDC0617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		7B451461F65975814B622614DCCF7C74 /* YDCourse.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDCourse.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
-		926114A5F1D1833E53D97A263F6C7170 /* YDCourseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YDCourseViewController.swift; path = YDCourse/YDCourseViewController.swift; sourceTree = "<group>"; };
+		95CDC5C9DEF916B446DC240811304E03 /* YDCourse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCourse-umbrella.h"; sourceTree = "<group>"; };
 		9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		A758E0055C16FC18EA92A73B7234E72D /* Pods-YDCourseDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDCourseDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		AF4434A0DA0A3444BF2011358F5D1C46 /* YDCourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCourse.release.xcconfig; sourceTree = "<group>"; };
 		B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		B7AB180FA2A5533956800A9F68AA9B35 /* YDCourse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDCourse-Info.plist"; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6C47F9460916C71D038F91BD3031219 /* YDCourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCourse.release.xcconfig; sourceTree = "<group>"; };
+		D4ABBF64A7B97E110D8B842300797AFC /* CTMediator+YDCourse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+YDCourse.swift"; path = "YDCourse/CTMediator+YDCourse.swift"; sourceTree = "<group>"; };
 		E124DB1739950A83C0B1FE1C8C730BC2 /* Pods-YDCourseDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDCourseDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E2BB339EA078E40AF7D87AD7E8730BC3 /* YDCourse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCourse-prefix.pch"; sourceTree = "<group>"; };
 		E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		E7C33D6BCE7736AA295877E07F21B519 /* YDCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCourse.debug.xcconfig; sourceTree = "<group>"; };
-		F2CD2A2E2C06A09086978694ED101CBC /* CTMediator+YDCourse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+YDCourse.swift"; path = "YDCourse/CTMediator+YDCourse.swift"; sourceTree = "<group>"; };
 		F38DABB9B9AC3A267BC916B5C80313E1 /* Pods-YDCourseDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDCourseDemo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73E222A426AD7FE24F892AAEB3DF7124 /* Frameworks */ = {
+		578062A63AAB5A90C530DFE9A986B4CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B2A6167D6A8986B912522AC51D0100 /* CTMediator.framework in Frameworks */,
-				D551A61AE21717B6FA3E2F49ED0F5EC5 /* Foundation.framework in Frameworks */,
+				0663666014396A0B272FBF1BF8BFB646 /* CTMediator.framework in Frameworks */,
+				361AC14800264F27139C19E6CDFF93D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,14 +135,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		26D47C74EBA1AD383CC0535B7FB1442A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D7848A008C2982374AD9D9245AB148CC /* YDCourse */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,27 +148,27 @@
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
+		30ED35D9703E4DE70219300650BC2EA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C043C36C68076105EFFD750F326F2DF /* YDCourse.modulemap */,
+				41FAED80D2607752ECA41B460E7FB993 /* YDCourse-dummy.m */,
+				B7AB180FA2A5533956800A9F68AA9B35 /* YDCourse-Info.plist */,
+				E2BB339EA078E40AF7D87AD7E8730BC3 /* YDCourse-prefix.pch */,
+				95CDC5C9DEF916B446DC240811304E03 /* YDCourse-umbrella.h */,
+				284F2D96AD28F80C64C29396299C5336 /* YDCourse.debug.xcconfig */,
+				AF4434A0DA0A3444BF2011358F5D1C46 /* YDCourse.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/YDCourse";
+			sourceTree = "<group>";
+		};
 		36FCFD6E289DD8CBCCF198092E4B291D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7B8D68B35C0AD394B63FC51127B667F5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				243CC1D3565E0F816C111E0E3FEADD48 /* YDCourse.modulemap */,
-				67A118655938F69A767BF3F73CE76832 /* YDCourse-dummy.m */,
-				34A4F89EAC345644099973B4868DED3A /* YDCourse-Info.plist */,
-				1CC0950B076F0E5AB9331DD59AACF95D /* YDCourse-prefix.pch */,
-				17B0D87B1BCFB39DC018C1BA00C38B6C /* YDCourse-umbrella.h */,
-				E7C33D6BCE7736AA295877E07F21B519 /* YDCourse.debug.xcconfig */,
-				C6C47F9460916C71D038F91BD3031219 /* YDCourse.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/YDCourse";
 			sourceTree = "<group>";
 		};
 		82641EA298CABCC0D0CD0247F18598F7 /* Products */ = {
@@ -209,6 +207,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9E4E73C6643FA1C190D1D740D6042C37 /* YDCourse */ = {
+			isa = PBXGroup;
+			children = (
+				056B2E1FA334A5484963687430A0C4DD /* CTMediator+OCYDCourse.h */,
+				5E71FD1E4AF5DB034C7E79A30E2705D1 /* CTMediator+OCYDCourse.m */,
+				D4ABBF64A7B97E110D8B842300797AFC /* CTMediator+YDCourse.swift */,
+				4AA2817574473725746D1AFA146806BC /* Target_YDCourse.swift */,
+				6B966E77BCA1E37F54F01248A8967084 /* YDCourseViewController.swift */,
+				B45ED42AB07CE656D43F6DD5EA19D23B /* Pod */,
+				30ED35D9703E4DE70219300650BC2EA7 /* Support Files */,
+			);
+			name = YDCourse;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B45ED42AB07CE656D43F6DD5EA19D23B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C44FE68C8400A95227BEFF94916E945 /* README.md */,
+				5E6E7549E5C6D17A7277514819DB490A /* YDCourse.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,7 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				26D47C74EBA1AD383CC0535B7FB1442A /* Development Pods */,
+				F9305106B8DD3260194AE72C8E419285 /* Development Pods */,
 				936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */,
 				36FCFD6E289DD8CBCCF198092E4B291D /* Pods */,
 				82641EA298CABCC0D0CD0247F18598F7 /* Products */,
@@ -245,25 +267,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D7848A008C2982374AD9D9245AB148CC /* YDCourse */ = {
+		F9305106B8DD3260194AE72C8E419285 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2CD2A2E2C06A09086978694ED101CBC /* CTMediator+YDCourse.swift */,
-				926114A5F1D1833E53D97A263F6C7170 /* YDCourseViewController.swift */,
-				F7AC0A699CB760B627BE4C76C7A5E09B /* Pod */,
-				7B8D68B35C0AD394B63FC51127B667F5 /* Support Files */,
+				9E4E73C6643FA1C190D1D740D6042C37 /* YDCourse */,
 			);
-			name = YDCourse;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		F7AC0A699CB760B627BE4C76C7A5E09B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5C133E6B4AD31945690FAE85BD27A046 /* README.md */,
-				7B451461F65975814B622614DCCF7C74 /* YDCourse.podspec */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,19 +288,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		160415278BAD78B783493B7B88DABCF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D13EF10B78DD351108A773B9750D3C /* CTMediator+OCYDCourse.h in Headers */,
+				012DB84FA1093165425623F42E20284F /* YDCourse-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4D2B4FA9D47824AE47FE8090AAEB8F66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F87AB6AA06B0F2C2FED8C1FD9DE4AD08 /* Pods-YDCourseDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F94D1CFAE19AA1F0FCB31DB84B88D3C4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7205FCB05AA7B62D59420AC1D35ACD10 /* YDCourse-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,17 +348,17 @@
 		};
 		C419E2702FD6D78E2B2A52ECAB93CAB4 /* YDCourse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6513B499CB2ECDEDFDF31823A807172 /* Build configuration list for PBXNativeTarget "YDCourse" */;
+			buildConfigurationList = 64C53E362F2FF6502C4BE2EDBDE79D13 /* Build configuration list for PBXNativeTarget "YDCourse" */;
 			buildPhases = (
-				F94D1CFAE19AA1F0FCB31DB84B88D3C4 /* Headers */,
-				284825FDC3C4D37DCB7B8A9520F3513C /* Sources */,
-				73E222A426AD7FE24F892AAEB3DF7124 /* Frameworks */,
-				ED41FE669E1901A01EA994ECDB774278 /* Resources */,
+				160415278BAD78B783493B7B88DABCF9 /* Headers */,
+				4591DFF03A229B60D08964AD79F1680E /* Sources */,
+				578062A63AAB5A90C530DFE9A986B4CE /* Frameworks */,
+				F19B9767AB0ECF57F3735E9967A7B0C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8802B1C8EEB9B50FE0E7D8C621D91D5F /* PBXTargetDependency */,
+				517AFAE9D5195ABE85783C8942C3A712 /* PBXTargetDependency */,
 			);
 			name = YDCourse;
 			productName = YDCourse;
@@ -399,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED41FE669E1901A01EA994ECDB774278 /* Resources */ = {
+		F19B9767AB0ECF57F3735E9967A7B0C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,13 +419,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		284825FDC3C4D37DCB7B8A9520F3513C /* Sources */ = {
+		4591DFF03A229B60D08964AD79F1680E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B522B8ADD1637BDDE630FB3026E9EF5F /* CTMediator+YDCourse.swift in Sources */,
-				5E484A2C09E897BA8B9E622E6BF49ADE /* YDCourse-dummy.m in Sources */,
-				DACC43C45396AE7703E4C06DF4451A77 /* YDCourseViewController.swift in Sources */,
+				3E68E6F9839142FD566F7F1A2E957456 /* CTMediator+OCYDCourse.m in Sources */,
+				FD37B94FEEC824684D116A647617C601 /* CTMediator+YDCourse.swift in Sources */,
+				0829569DE6AAC9E4C4359A0B4BE6FAE3 /* Target_YDCourse.swift in Sources */,
+				94C46C0BD8A38C9E249BE8D2152B041C /* YDCourse-dummy.m in Sources */,
+				922AE522F168F304AA91348F72230BC4 /* YDCourseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,17 +452,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		517AFAE9D5195ABE85783C8942C3A712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 056625ABE09F44C01B3F8D469E098C23 /* PBXContainerItemProxy */;
+		};
 		625B12ED79AB700382EF39D89460BDEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YDCourse;
 			target = C419E2702FD6D78E2B2A52ECAB93CAB4 /* YDCourse */;
 			targetProxy = 22837CCDA6EDBDEACD3E18568BD4CBA5 /* PBXContainerItemProxy */;
-		};
-		8802B1C8EEB9B50FE0E7D8C621D91D5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 946700EDE92BF2E7237C99F47DE1EF19 /* PBXContainerItemProxy */;
 		};
 		FEC7538960F393D8D0D81C2ED3012B2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -461,41 +473,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0508FF128E458D9A08FD0C50AA4ED314 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C33D6BCE7736AA295877E07F21B519 /* YDCourse.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YDCourse/YDCourse-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YDCourse/YDCourse-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YDCourse/YDCourse.modulemap";
-				PRODUCT_MODULE_NAME = YDCourse;
-				PRODUCT_NAME = YDCourse;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,6 +569,41 @@
 			};
 			name = Release;
 		};
+		3A61A55FA9B5380FD54CF92A530A8D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284F2D96AD28F80C64C29396299C5336 /* YDCourse.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDCourse/YDCourse-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDCourse/YDCourse-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YDCourse/YDCourse.modulemap";
+				PRODUCT_MODULE_NAME = YDCourse;
+				PRODUCT_NAME = YDCourse;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		59372659D99742AFC2DF2279C4E7C41C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F56C778DC356F62F311913C14957773 /* Pods-YDCourseDemo.release.xcconfig */;
@@ -631,9 +643,9 @@
 			};
 			name = Release;
 		};
-		6480AF65894666F084D721076FBF152F /* Release */ = {
+		5E20D0D554387B5ED649A50EC1FD0993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C47F9460916C71D038F91BD3031219 /* YDCourse.release.xcconfig */;
+			baseConfigurationReference = AF4434A0DA0A3444BF2011358F5D1C46 /* YDCourse.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -825,11 +837,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6513B499CB2ECDEDFDF31823A807172 /* Build configuration list for PBXNativeTarget "YDCourse" */ = {
+		64C53E362F2FF6502C4BE2EDBDE79D13 /* Build configuration list for PBXNativeTarget "YDCourse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0508FF128E458D9A08FD0C50AA4ED314 /* Debug */,
-				6480AF65894666F084D721076FBF152F /* Release */,
+				3A61A55FA9B5380FD54CF92A530A8D8B /* Debug */,
+				5E20D0D554387B5ED649A50EC1FD0993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

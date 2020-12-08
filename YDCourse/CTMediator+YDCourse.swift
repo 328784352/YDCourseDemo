@@ -17,12 +17,4 @@ public extension CTMediator {
             return UIViewController()
         }
     }
-    
-    func YDCourse_pushList(_ message:String, callback:@escaping (String) -> Void) -> UIViewController {
-        if let viewController = self.performTarget("YDList", action: "pushOCYDList", params: ["message":message,kCTMediatorParamsKeySwiftTargetModuleName:"YDList","callback":callback], shouldCacheTarget: false) as? UIViewController {
-            return viewController
-        }else{
-            return UIViewController()
-        }
-    }
 }

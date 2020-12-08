@@ -12,6 +12,10 @@ class YDCourseViewController: UIViewController {
 
     let wwidth = UIScreen.main.bounds.size.width
     let messageLabel = UILabel()
+    public var message:String?
+    
+    typealias YDCourseCallback = (_ param:String) -> Void
+    public var callback:YDCourseCallback? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +55,7 @@ class YDCourseViewController: UIViewController {
     }
     
     @objc func oneBtnClick() {
-        let nav = UINavigationController.init(rootViewController: CTMediator.sharedInstance().YDCourse_pushHomePage("从Router调用过来的", callback:{[weak self] (result) in
+        let nav = UINavigationController.init(rootViewController: CTMediator.sharedInstance().YDCourse_pushHomePage("从Course调用过来的", callback:{[weak self] (result) in
             self?.messageLabel.text = "回调消息：\n\(result)"
         }))
         self.present(nav, animated: true) {
@@ -60,12 +64,12 @@ class YDCourseViewController: UIViewController {
     }
 
     @objc func twoBtnClick() {
-        print("进入YDList")
+        let list = CTMediator.sharedInstance().ydCourse_pushList("从Course调用过来的", callback:{[weak self] (result) in
+            self?.messageLabel.text = "回调消息：\n\(result)"
+        })
+        self.navigationController?.pushViewController(list, animated: true)
     }
     
-    @objc func threeBtnClick() {
-        print("进入YDCourse")
-    }
 
     /*
     // MARK: - Navigation

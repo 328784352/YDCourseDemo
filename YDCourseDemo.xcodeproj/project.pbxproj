@@ -221,6 +221,7 @@
 				TargetAttributes = {
 					1453DA8B257A40A4000A0D94 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1170;
 					};
 					1453DAA1257A40A6000A0D94 = {
 						CreatedOnToolsVersion = 12.1;
@@ -505,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYA9VBR3KK;
 				INFOPLIST_FILE = YDCourseDemo/Info.plist;
@@ -515,6 +517,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Beijing-Yuuxin-Technology-Co.--Ltd..YDCourseDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -526,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYA9VBR3KK;
 				INFOPLIST_FILE = YDCourseDemo/Info.plist;
@@ -536,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Beijing-Yuuxin-Technology-Co.--Ltd..YDCourseDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
