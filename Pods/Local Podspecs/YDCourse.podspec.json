@@ -1,6 +1,6 @@
 {
   "name": "YDCourse",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "A short description of YDCourse.",
   "description": "组件化用的demo",
   "homepage": "https://github.com/328784352/YDCourseDemo.git",
@@ -16,9 +16,10 @@
   },
   "source": {
     "git": "https://github.com/328784352/YDCourseDemo.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "source_files": "YDCourse/**/*{h,m,swift}",
+  "public_header_files": "YDCourse/**/*.h",
   "dependencies": {
     "CTMediator": [
 

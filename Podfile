@@ -6,5 +6,5 @@ target 'YDCourseDemo' do
   use_frameworks!
 
   pod 'YDCourse', :path => "YDCourse.podspec"
-
+  
 end

@@ -8,16 +8,16 @@
 import UIKit
 import CTMediator
 
-class YDCourseViewController: UIViewController {
+public class YDCourseViewController: UIViewController {
 
     let wwidth = UIScreen.main.bounds.size.width
     let messageLabel = UILabel()
     public var message:String?
     
     typealias YDCourseCallback = (_ param:String) -> Void
-    public var callback:YDCourseCallback? = nil
+    var callback:YDCourseCallback? = nil
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
@@ -56,6 +56,7 @@ class YDCourseViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    ///跳转到homepage
     @objc func oneBtnClick() {
         let nav = UINavigationController.init(rootViewController: CTMediator.sharedInstance().YDCourse_pushHomePage("从Course调用过来的", callback:{[weak self] (result) in
             self?.messageLabel.text = "回调消息：\n\(result)"
@@ -64,9 +65,10 @@ class YDCourseViewController: UIViewController {
 
         }
     }
-
+    
+    ///跳转到list
     @objc func twoBtnClick() {
-        let list = CTMediator.sharedInstance().ydCourse_pushList("从Course调用过来的", callback:{[weak self] (result) in
+        let list = CTMediator.sharedInstance().ydCourse_OCpushList("从Course调用过来的", callback:{[weak self] (result) in
             self?.messageLabel.text = "回调消息：\n\(result)"
         })
         self.navigationController?.pushViewController(list, animated: true)

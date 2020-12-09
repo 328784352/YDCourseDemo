@@ -9,11 +9,19 @@
 
 @implementation CTMediator (OCYDCourse)
 
-- (UIViewController *)YDCourse_pushList:(NSString *)message callback:(void(^)(NSString *result))callback{
+///获取ListVC
+- (UIViewController *)YDCourse_OCpushList:(NSString *)message callback:(void(^)(NSString *result))callback{
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"callback"] = callback;
     params[@"message"] = message;
-    return [self performTarget:@"YDList" action:@"pushOCYDList" params:params shouldCacheTarget:NO];
+    UIViewController *controller = [self performTarget:@"YDList" action:@"OCpushList" params:params shouldCacheTarget:NO];
+    if (controller) {
+        return controller;
+    }else{
+        NSLog(@"==============没有找到相关组件==============");
+        return nil;
+    }
+    
 }
 
 @end

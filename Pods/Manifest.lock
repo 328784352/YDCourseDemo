@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (44)
-  - YDCourse (0.0.2):
+  - YDCourse (0.0.4):
     - CTMediator
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
-  YDCourse: 8986c24d1e98b87b8875c61444750b8a7486f91f
+  YDCourse: 6508c7692e6e2f61c2950b3645c88ef17f67fdbc
 
 PODFILE CHECKSUM: 5ae6e4028d6df07db866f6afb95177a8810fc72f
 
